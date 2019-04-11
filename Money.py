@@ -62,7 +62,6 @@ def delivery_of_change(x):
     print("5000=",k,"\n2000=",l,"\n1000",m,"\n500=",n,"\n200=" ,a , "\n100=",b , "\n50=",c , "\n10=" ,d,"\n5=",e,"\n1=",f,"\n0.5=",g,"\n0.1=",h,"\n0.05=",i,"\n0.01=",j)
 
 
-
 print("Write money")
 x=int(input())
 delivery_of_change(x)
