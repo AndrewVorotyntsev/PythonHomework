@@ -64,7 +64,4 @@ def delivery_of_change(x):
 
 print("Write money")
 x=float(input())
-delivery_of_change(x)
-
-
-
+delivery_of_change(x)09
