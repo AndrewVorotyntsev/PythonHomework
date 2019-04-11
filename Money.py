@@ -63,7 +63,7 @@ def delivery_of_change(x):
 
 
 print("Write money")
-x=int(input())
+x=float(input())
 delivery_of_change(x)
 
 
