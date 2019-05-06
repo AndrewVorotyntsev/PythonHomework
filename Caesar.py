@@ -37,13 +37,13 @@ B = {
 }
 
 
-
+print("Введите слово")
 s = str(input())
-k=int(input())
-q=[]
+print("Введите ключ")
+k = int(input())
 for i in range(len(s)):
-    p=B[s[i]]+k
-    if p<=33:
+    p = B[s[i]]+k
+    if p <= 33:
         print(A[B[s[i]]+k], end='')
     else:
         print(A[B[s[i]]+k-33], end='')
